@@ -37,6 +37,8 @@ And command to exit (or Ctrl-C):
 
 # Compile and run whole playground
 
+Be aware that Makefile is written with assumption that opam is installed at **D:\opam** and you use switch with name **default**.
+
 First we build and link executable (with additional removal of old files):
 
 ```
