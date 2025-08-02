@@ -34,3 +34,17 @@ And command to exit (or Ctrl-C):
 ```
 #quit;;
 ```
+
+# Compile and run whole playground
+
+First we build and link executable (with additional removal of old files):
+
+```
+rm *.o; rm *.exe; make
+```
+
+If everything worked fine we can actually execute:
+
+```
+.\main.exe
+```
